@@ -6,14 +6,14 @@
 /*   By: hfuki <hfuki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 19:31:53 by hfuki             #+#    #+#             */
-/*   Updated: 2025/05/29 16:29:47 by hfuki            ###   ########.fr       */
+/*   Updated: 2025/06/02 16:35:51 by hfuki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include "../libft/libft.h"
+# include "libft/libft.h"
 # include <unistd.h>
 # include <stdarg.h>
 
