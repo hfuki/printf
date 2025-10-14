@@ -6,7 +6,7 @@
 #    By: hfuki <hfuki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/15 19:32:33 by hfuki             #+#    #+#              #
-#    Updated: 2025/05/29 13:36:54 by hfuki            ###   ########.fr        #
+#    Updated: 2025/07/23 16:20:07 by hfuki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ SRCS = ft_printf.c printf_handle1.c printf_handle2.c printf_utils.c
 OBJS = $(SRCS:.c=.o)
 
 LIBFT_DIR = libft
-LIBFT = $(LIBFT_DIR)/libft.a
+LIBFT = ../$(LIBFT_DIR)/libft.a
 
 all : $(NAME)
 
